@@ -1,0 +1,98 @@
+school_name,division,city_state,type,conference,athletics_domain,status,score,reason
+Bevill State Community College Bears,NJCAA D1,"Sumiton, Alabama",,,athletics.bscc.edu,FOUND,250,.edu with athletics/sports; 5 school/city/mascot tokens matched
+Bishop State Community College Wildcats,NJCAA D1,"Mobile, Alabama",,,coastalcoyotesnorth.com,FOUND,280,.com generic; 6 school/city/mascot tokens matched
+Calhoun Community College Warhawks,NJCAA D1,"Tanner, Alabama",,,calhounathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Chattahoochee Valley Community College Pirates,NJCAA D1,"Phenix City, Alabama",,,cvpirates.com,FOUND,470,.com with athletics/sports; 9 school/city/mascot tokens matched
+Central Alabama Community College Trojans,NJCAA D1,"Alexander City, Alabama",,,aumathletics.com,FOUND,430,.com with athletics/sports; 7 school/city/mascot tokens matched; Domain in whitelist for another school
+Coastal Alabama Community College Sun Chiefs,NJCAA D1,"Bay Minette, Alabama",,,goshockers.com,FOUND,490,.com with athletics/sports; 9 school/city/mascot tokens matched; Domain in whitelist for another school
+Coastal Alabama Community College Brewton Warhawks,NJCAA D1,"Brewton, Alabama",,,bvbombers.com,FOUND,310,.com generic; 7 school/city/mascot tokens matched
+Coastal Alabama Community College Monroeville Eagles,NJCAA D1,"Monroeville, Alabama",,,jaxstatesports.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Enterprise-Ozark Community College Boll Weevils,NJCAA D1,"Enterprise, Alabama",,,usajaguars.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Gadsden State Community College Cardinals,NJCAA D1,"Gadsden, Alabama",,,gocardinals.gadsdenstate.edu,FOUND,280,.edu with athletics/sports; 6 school/city/mascot tokens matched
+Lawson State Community College Cougars,NJCAA D1,"Birmingham, Alabama",,,uwaathletics.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Lurleen B. Wallace Community College Saints,NJCAA D1,"Andalusia, Alabama",,,lbwsaints.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Marion Military Institute Tigers,NJCAA D1,"Marion, Alabama",,,mmitigers.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Shelton State Community College Buccaneers,NJCAA D1,"Tuscaloosa, Alabama",,,athletics.sheltonstate.edu,FOUND,280,.edu with athletics/sports; 6 school/city/mascot tokens matched
+Snead State Community College Parsons,NJCAA D1,"Boaz, Alabama",,,sneadathletics.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Southern Union State Community College Bison,NJCAA D1,"Wadley, Alabama",,,susccathletics.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Wallace Community College Selma Patriots,NJCAA D1,"Selma, Alabama",,,acccathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Wallace State Community College Lions,NJCAA D1,"Hanceville, Alabama",,,athletics.wallacestate.edu,FOUND,280,.edu with athletics/sports; 6 school/city/mascot tokens matched
+Arizona Western College Matadors,NJCAA D1,"Yuma, Arizona",,,awcmatadors.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Central Arizona College Vaqueros/Vaqueras,NJCAA D1,"Coolidge, Arizona",,,vaquerosports.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Cochise College Apaches,NJCAA D1,"Douglas, Arizona",,,eraueagles.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Eastern Arizona College Gila Monsters,NJCAA D1,"Thatcher, Arizona",,,wsucougars.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Mesa Community College Thunderbird,NJCAA D1,"Mesa, Arizona",,,mesatbirdsports.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Pima Community College Aztecs,NJCAA D1,"Tucson, Arizona",,,pimaaztecs.com,FOUND,280,.com generic; 6 school/city/mascot tokens matched
+Yavapai College Roughriders,NJCAA D1,"Prescott, Arizona",,,hiloathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Colorado Northwestern Community College Spartan,NJCAA D1,"Rangely, Colorado",,,usueasternathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Lamar Community College Runnin' Lopes,NJCAA D1,"Lamar, Colorado",,,golopes.com,FOUND,280,.com generic; 6 school/city/mascot tokens matched
+Northeastern Junior College Plainsmen,NJCAA D1,"Sterling, Colorado",,,goboxers.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Otero College Rattlers,NJCAA D1,"La Junta, Colorado",,,gobroncbusters.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Trinidad State College Trojans,NJCAA D1,"Trinidad, Colorado",,,tsctrojans.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+ASA College Silver Storm,NJCAA D1,"Miami, Florida",,,fiusports.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Broward College Seahawks,NJCAA D1,"Fort Lauderdale, Florida",,,fmuathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Chipola College Indians,NJCAA D1,"Marianna, Florida",,,southwestbearathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+College of Central Florida Patriots,NJCAA D1,"Ocala, Florida",,,polkeagles.com,FOUND,250,.com generic; 5 school/city/mascot tokens matched
+Daytona State College Falcons,NJCAA D1,"Daytona Beach, Florida",,,dscfalcons.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Eastern Florida State College Titans,NJCAA D1,"Brevard County, Florida",,,efsctitans.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Florida SouthWestern State College Buccaneers,NJCAA D1,"Fort Myers, Florida",,,fswbucs.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Florida State College at Jacksonville Blue Wave,NJCAA D1,"Jacksonville, Florida",,,gohatters.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Gulf Coast State College Commodores,NJCAA D1,"Panama City, Florida",,,gcathletics.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Hillsborough Community College Hawks,NJCAA D1,"Tampa, Florida",,,hcchawks.com,FOUND,250,.com generic; 5 school/city/mascot tokens matched
+Indian River State College Pioneers,NJCAA D1,"Fort Pierce, Florida",,,indianriverstateathletics.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Lake Sumter State College Lakehawks,NJCAA D1,"Leesburg, Florida",,,lakehawksports.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Miami-Dade College Sharks,NJCAA D1,"Miami, Florida",,,nsusharks.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+North Florida Community College Sentinels,NJCAA D1,"Madison, Florida",,,gomidwayeagles.com,FOUND,310,.com generic; 7 school/city/mascot tokens matched
+Northwest Florida State College Raiders,NJCAA D1,"Niceville, Florida",,,nwfraiders.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Palm Beach State College Panthers,NJCAA D1,"Lake Worth, Florida",,,pbscpanthers.com,FOUND,310,.com generic; 7 school/city/mascot tokens matched
+Pensacola State College Pirates,NJCAA D1,"Pensacola, Florida",,,athletics.pensacolastate.edu,FOUND,250,.edu with athletics/sports; 5 school/city/mascot tokens matched
+Polk State College Eagles,NJCAA D1,"Winter Haven, Florida",,,polk.edu,FOUND,310,.edu with athletics/sports; 7 school/city/mascot tokens matched
+Santa Fe College Saints,NJCAA D1,"Gainesville, Florida",,,santafesaints.com,FOUND,320,.com with athletics/sports; 4 school/city/mascot tokens matched
+Seminole State College of Florida Raiders,NJCAA D1,"Sanford, Florida",,,seminolestateraiders.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+South Florida State College Panthers,NJCAA D1,"Avon Park, Florida",,,scfmanatees.com,FOUND,320,.com with athletics/sports; 4 school/city/mascot tokens matched
+St. Johns River State College Vikings,NJCAA D1,"Palatka, Florida",,,hailstate.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+St. Petersburg College Titans,NJCAA D1,"St. Petersburg, Florida",,,olemisssports.com,FOUND,280,.com with athletics/sports; 2 school/city/mascot tokens matched; Domain in whitelist for another school
+Tallahassee Community College Eagles,NJCAA D1,"Tallahassee, Florida",,,unfospreys.com,FOUND,400,.com with athletics/sports; 6 school/city/mascot tokens matched; Domain in whitelist for another school
+Albany Technical College Titans,NJCAA D1,"Albany, Georgia",,,clarkatlantasports.com,FOUND,370,.com with athletics/sports; 5 school/city/mascot tokens matched; Domain in whitelist for another school
+Chattahoochee Technical College Golden Eagles,NJCAA D1,"Marietta, Georgia",,,brenautigers.com,FOUND,150,.com generic; 1 school/city/mascot tokens matched; Domain in whitelist for another school; Accepted with low score due to strong keyword
+East Georgia College Bobcats,NJCAA D1,"Swainsboro, Georgia",,,georgiadogs.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Georgia Highlands College Chargers,NJCAA D1,"Rome, Georgia",,,ghcchargers.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Georgia Military College Bulldogs,NJCAA D1,"Milledgeville, Georgia",,,gmcbulldogs.com,FOUND,320,.com with athletics/sports; 4 school/city/mascot tokens matched
+Gordon State College Highlanders,NJCAA D1,"Barnesville, Georgia",,,gscathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+South Georgia Technical College Jets,NJCAA D1,"Americus, Georgia",,,southgatech.edu,FOUND_NOT_CONFIDENT,250,Fallback .edu with athletics path
+Waycross College Swamp Foxes,NJCAA D1,"Waycross, Georgia",,,catamountsports.com,FOUND,370,.com with athletics/sports; 5 school/city/mascot tokens matched; Domain in whitelist for another school
+North Idaho College Cardinals,NJCAA D1,"Coeur d'Alene, Idaho",,,wildcatsports.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+College of Southern Idaho Eagles,NJCAA D1,"Twin Falls, Idaho",,,wnccathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Frontier Community College Bobcats,NJCAA D1,"Fairfield, Illinois",,,mkepanthers.com,FOUND,430,.com with athletics/sports; 7 school/city/mascot tokens matched; Domain in whitelist for another school
+John A. Logan College Volunteers,NJCAA D1,"Carterville, Illinois",,,siusalukis.com,FOUND,430,.com with athletics/sports; 7 school/city/mascot tokens matched; Domain in whitelist for another school
+Kaskaskia College Blue Devils,NJCAA D1,"Centralia, Illinois",,,madisoncollegeathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Kishwaukee College Kougars,NJCAA D1,"Malta, Illinois",,,kishkougars.com,FOUND,220,.com generic; 4 school/city/mascot tokens matched
+Lake Land College Lakers,NJCAA D1,"Mattoon, Illinois",,,lakelandcollegeathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Lincoln Trail College Statesman,NJCAA D1,"Robinson, Illinois",,,ltcathletics.com,FOUND,320,.com with athletics/sports; 4 school/city/mascot tokens matched
+Olney Central College Blue Knights,NJCAA D1,"Olney, Illinois",,,olneycentralathletics.com,FOUND,290,.com with athletics/sports; 3 school/city/mascot tokens matched
+Shawnee Community College Saints,NJCAA D1,"Ullin, Illinois",,,shawneecc.edu,FOUND,280,.edu with athletics/sports; 6 school/city/mascot tokens matched
+South Suburban College Bulldogs,NJCAA D1,"South Holland, Illinois",,,tritonathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Southeastern Illinois College Falcons,NJCAA D1,"Harrisburg, Illinois",,,sicfalcons.com,FOUND,280,.com generic; 6 school/city/mascot tokens matched
+Southwestern Illinois College Blue Storm,NJCAA D1,"Belleville, Illinois",,,baseball-reference.com,FOUND,310,.com generic; 7 school/city/mascot tokens matched
+Wabash Valley College Warriors,NJCAA D1,"Mount Carmel, Illinois",,,wvcwarriorathletics.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Vincennes University Trailblazers,NJCAA D1,"Vincennes, Indiana",,,govutrailblazers.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Ellsworth Community College Panthers,NJCAA D1,"Iowa Falls, Iowa",,,timescitizen.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Hawkeye Community College Redtails,NJCAA D1,"Waterloo, Iowa",,,redtailathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Indian Hills Community College-Ottumwa Warriors,NJCAA D1,"Ottumwa, Iowa",,,indianhillsathletics.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Iowa Central Community College Tritons,NJCAA D1,"Fort Dodge, Iowa",,,ictritons.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Iowa Lakes Community College Lakers,NJCAA D1,"Estherville, Iowa",,,iowalakesathletics.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Iowa Western Community College Reivers,NJCAA D1,"Council Bluffs, Iowa",,,goreivers.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Marshalltown Community College Tigers,NJCAA D1,"Marshalltown, Iowa",,,mccathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Allen Community College Red Devils,NJCAA D1,"Iola, Kansas",,,allenreddevils.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Barton County Community College Cougars,NJCAA D1,"Great Bend, Kansas",,,wusports.com,FOUND,440,.com with athletics/sports; 8 school/city/mascot tokens matched
+Butler County Community College Grizzly Bears,NJCAA D1,"El Dorado, Kansas",,,dmaccbears.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Cloud County Community College Thunderbirds/Lady Thunderbirds,NJCAA D1,"Concordia, Kansas",,,goconqs.com,FOUND,280,.com generic; 6 school/city/mascot tokens matched
+Coffeyville Community College Ravens,NJCAA D1,"Coffeyville, Kansas",,,redravenathletics.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Colby Community College Trojans,NJCAA D1,"Colby, Kansas",,,colbytrojans.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched
+Cowley County Community College Tigers,NJCAA D1,"Arkansas City, Kansas",,,cowleytigers.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Dodge City Community College Conquistadors,NJCAA D1,"Dodge City, Kansas",,,bluedevils.kckcc.edu,FOUND,280,.edu with athletics/sports; 6 school/city/mascot tokens matched
+Garden City Community College Broncbusters,NJCAA D1,"Garden City, Kansas",,,gcccks.edu,FOUND,220,.edu with athletics/sports; 4 school/city/mascot tokens matched
+Hutchinson Community College Blue Dragons,NJCAA D1,"Hutchinson, Kansas",,,bluedragonsports.com,FOUND,410,.com with athletics/sports; 7 school/city/mascot tokens matched
+Independence Community College Pirates,NJCAA D1,"Independence, Kansas",,,indypirates.com,FOUND,220,.com generic; 4 school/city/mascot tokens matched
+Northwest Kansas Technical College Mavericks,NJCAA D1,"Goodland, Kansas",,,drurypanthers.com,FOUND,380,.com with athletics/sports; 6 school/city/mascot tokens matched
+Pratt Community College Beavers,NJCAA D1,"Pratt, Kansas",,,gobeaversports.com,FOUND,350,.com with athletics/sports; 5 school/city/mascot tokens matched

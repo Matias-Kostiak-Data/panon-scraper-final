@@ -1,0 +1,284 @@
+# Domain Finder - Custom Configuration Example
+# =============================================
+# 
+# This file shows various configuration scenarios.
+# Copy sections to your main config.yaml as needed.
+#
+# Version: 1.0
+# Date: 2025-11-15
+
+# ============================================================================
+# SCENARIO 1: Fast Mode (Aggressive)
+# Use when: You have paid API quota and want maximum speed
+# ============================================================================
+
+fast_mode:
+  search:
+    rate_limit_seconds: 1.0          # Faster requests (risky on free tier)
+    max_results_per_query: 5         # Fewer results = faster
+    request_timeout: 5               # Shorter timeout
+  
+  validation:
+    check_domain_accessibility: false  # Skip validation = faster
+  
+  output:
+    auto_save_interval: 20           # Save less frequently
+
+# ============================================================================
+# SCENARIO 2: Safe Mode (Conservative)
+# Use when: On free tier, want to avoid rate limits
+# ============================================================================
+
+safe_mode:
+  search:
+    rate_limit_seconds: 3.0          # Slower, safer
+    max_results_per_query: 10        # More results for better accuracy
+    request_timeout: 15              # Longer timeout for slow connections
+  
+  validation:
+    check_domain_accessibility: true
+    accessibility_timeout: 10        # Longer validation timeout
+  
+  output:
+    auto_save_interval: 5            # Save very frequently
+
+# ============================================================================
+# SCENARIO 3: Debug Mode
+# Use when: Troubleshooting issues
+# ============================================================================
+
+debug_mode:
+  search:
+    rate_limit_seconds: 2.0
+    max_results_per_query: 10
+  
+  logging:
+    level: "DEBUG"                   # Verbose logging
+    save_to_file: true
+    log_file: "logs/debug.log"
+  
+  performance:
+    progress_interval: 1             # Show progress every school
+    show_percentage: true
+    show_eta: true
+
+# ============================================================================
+# SCENARIO 4: High Accuracy Mode
+# Use when: Quality more important than speed
+# ============================================================================
+
+accuracy_mode:
+  search:
+    rate_limit_seconds: 2.0
+    max_results_per_query: 15        # More results to analyze (may slow down)
+  
+  validation:
+    check_domain_accessibility: true
+    accessibility_timeout: 10
+  
+  scoring:
+    school_in_domain_bonus: 400      # Higher bonus for exact matches
+    position_bonus_multiplier: 120   # Emphasize top results even more
+    athletics_keyword_bonus: 250
+    dedicated_domain_bonus: 200
+    edu_athletics_path_bonus: 150
+    edu_homepage_penalty: 150        # Stronger penalty for .edu homepages
+
+# ============================================================================
+# SCENARIO 5: Minimal Logging
+# Use when: Running on server, minimal output needed
+# ============================================================================
+
+production_mode:
+  logging:
+    level: "WARNING"                 # Only warnings and errors
+    save_to_file: true
+    log_file: "logs/production.log"
+  
+  performance:
+    progress_interval: 100           # Only show every 100 schools
+    show_percentage: false
+    show_eta: false
+
+# ============================================================================
+# SCENARIO 6: Testing/Development
+# Use when: Testing with small datasets
+# ============================================================================
+
+test_mode:
+  search:
+    rate_limit_seconds: 0.5          # Very fast for testing
+    max_results_per_query: 5
+  
+  validation:
+    check_domain_accessibility: false  # Skip for speed
+  
+  output:
+    auto_save_interval: 2            # Save very frequently
+    output_file: "data/output/test_results.csv"
+  
+  logging:
+    level: "INFO"
+    save_to_file: true
+    log_file: "logs/test.log"
+
+# ============================================================================
+# SCENARIO 7: Custom Filtering
+# Use when: Need to exclude additional domains
+# ============================================================================
+
+custom_filtering:
+  validation:
+    excluded_domains:
+      # Default exclusions
+      - "wikipedia.org"
+      - "facebook.com"
+      - "twitter.com"
+      - "instagram.com"
+      - "youtube.com"
+      - "linkedin.com"
+      - "ncaa.com"
+      - "maxpreps.com"
+      - "athletic.net"
+      - "hudl.com"
+      - "fieldlevel.com"
+      
+      # Additional custom exclusions
+      - "247sports.com"
+      - "rivals.com"
+      - "espn.com"
+      - "sidearmstats.com"
+      - "prepvolleyball.com"
+      - "volleytalk.com"
+      - "avca.org"
+      - "recruiting.com"
+      - "ncsa.org"
+
+# ============================================================================
+# SCENARIO 8: Alternative Query Template
+# Use when: Default query not working well
+# ============================================================================
+
+alternative_queries:
+  # Option 1: More specific
+  search:
+    query_template: "{school_name} athletics department official website"
+  
+  # Option 2: Shorter
+  # query_template: "{school_name} athletics site"
+  
+  # Option 3: Sport-specific (if needed)
+  # query_template: "{school_name} volleyball athletics"
+  
+  # Option 4: Include "university" keyword
+  # query_template: "{school_name} university athletics official site"
+
+# ============================================================================
+# SCENARIO 9: Batch Processing Settings
+# Use when: Processing multiple batches over time
+# ============================================================================
+
+batch_processing:
+  output:
+    auto_save_interval: 10
+    resume_enabled: true
+    output_file: "data/output/batch_{date}_results.csv"  # Dynamic filename
+  
+  logging:
+    log_file: "logs/batch_{date}.log"
+
+# ============================================================================
+# SCENARIO 10: Maximum Performance (Paid API)
+# Use when: Have unlimited API quota and want fastest possible
+# ============================================================================
+
+max_performance:
+  search:
+    rate_limit_seconds: 0.5          # Minimal delay
+    max_results_per_query: 5         # Quick results
+    request_timeout: 3               # Short timeout
+  
+  validation:
+    check_domain_accessibility: false  # No validation
+  
+  output:
+    auto_save_interval: 50           # Less frequent saves
+  
+  performance:
+    progress_interval: 50
+  
+  logging:
+    level: "ERROR"                   # Minimal logging
+
+# ============================================================================
+# HOW TO USE THESE CONFIGURATIONS
+# ============================================================================
+#
+# 1. Copy the scenario you want to your main config.yaml
+# 2. Adjust values as needed
+# 3. Remove the scenario wrapper (e.g., "fast_mode:")
+# 4. Keep only the nested configuration
+#
+# Example - To use fast_mode:
+#
+# Copy this to config.yaml:
+#
+# search:
+#   rate_limit_seconds: 1.0
+#   max_results_per_query: 5
+#   request_timeout: 5
+#
+# validation:
+#   check_domain_accessibility: false
+#
+# output:
+#   auto_save_interval: 20
+#
+# ============================================================================
+
+# ============================================================================
+# RECOMMENDED STARTING CONFIGURATION
+# ============================================================================
+
+recommended:
+  # Balanced settings for most use cases
+  
+  search:
+    rate_limit_seconds: 1.5          # Safe for free tier
+    max_results_per_query: 10        # Good accuracy
+    request_timeout: 10              # Handles slow connections
+  
+  output:
+    auto_save_interval: 10           # Good balance
+    resume_enabled: true
+    output_file: "data/output/schools_with_domains_COMPLETE_v2.csv"
+  
+  validation:
+    check_domain_accessibility: true  # Ensures quality
+    accessibility_timeout: 5
+  
+  logging:
+    level: "INFO"                    # Good visibility
+    save_to_file: true
+    log_file: "logs/domain_finder.log"
+  
+  performance:
+    progress_interval: 25            # Regular updates
+    show_percentage: true
+
+# ============================================================================
+# CONFIGURATION TIPS
+# ============================================================================
+#
+# • Start with recommended settings
+# • Use fast_mode only if you have paid API quota
+# • Use safe_mode if you hit rate limits
+# • Use debug_mode to troubleshoot issues
+# • Use accuracy_mode for critical data
+#
+# • Lower rate_limit_seconds = faster but riskier
+# • Higher rate_limit_seconds = slower but safer
+# • check_domain_accessibility = true → slower but higher quality
+# • auto_save_interval lower = more saves = less data loss on crash
+#
+# ============================================================================

@@ -1,0 +1,65 @@
+# Manual domain overrides for maximum precision (school_name + division as key)
+# Example: 'Louisiana State University at Eunice Bengals|NJCAA D1': 'athletics.lsue.edu'
+manual_overrides: {}
+
+# Domain Finder Configuration
+# ============================
+
+input:
+  input_file: "data/input/data_input_njcaa_d1_schools_CLEAN.csv"
+
+search:
+  rate_limit_seconds: 1.5
+  max_results_per_query: 10
+  request_timeout: 10
+  query_template: "{school_name} official athletics website"
+
+output:
+  auto_save_interval: 10
+  resume_enabled: true
+  output_file: "data/output/njcaa_d1_full_domain_results.csv"
+  allow_duplicates: false
+
+validation:
+  check_domain_accessibility: true
+  accessibility_timeout: 5
+  excluded_domains:
+    - "wikipedia.org"
+    - "facebook.com"
+    - "twitter.com"
+    - "instagram.com"
+    - "youtube.com"
+    - "linkedin.com"
+    - "ncaa.com"
+    - "maxpreps.com"
+    - "athletic.net"
+    - "hudl.com"
+    - "fieldlevel.com"
+  required_keywords:
+    - "athletics"
+    - "sports"
+
+scoring:
+  school_in_domain_bonus: 300
+  position_bonus_multiplier: 100
+  athletics_keyword_bonus: 200
+  dedicated_domain_bonus: 150
+  edu_athletics_path_bonus: 100
+  edu_homepage_penalty: 100
+
+logging:
+  level: "INFO"
+  save_to_file: true
+  log_file: "logs/domain_finder.log"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+resume:
+  auto_detect: true
+  skip_processed: true
+  show_stats: true
+
+performance:
+  progress_interval: 25
+  show_percentage: true
+  show_eta: false

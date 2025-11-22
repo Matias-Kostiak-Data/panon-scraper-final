@@ -1,0 +1,17 @@
+# Domain Finder - Dependencies
+# Python 3.8+ required
+
+# Core Dependencies
+requests==2.31.0
+pandas==2.1.4
+python-dotenv==1.0.0
+
+# Data Processing
+urllib3==2.1.0
+certifi==2023.11.17
+
+# Configuration (optional)
+PyYAML==6.0.1
+
+# Development (optional - for testing)
+pytest==7.4.3
