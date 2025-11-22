@@ -16,11 +16,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      # ----------------------------
-      # DOMAIN FINDER
-      # ----------------------------
       - name: Install domain finder dependencies
-        working-directory: "domain finder"
+        working-directory: "./domain finder"
         run: |
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
@@ -29,25 +26,22 @@ jobs:
           fi
 
       - name: Run domain finder on macOS
-        working-directory: "domain finder"
+        working-directory: "./domain finder"
         run: |
           echo "Running domain_finder.py on macOS..."
           python3 src/domain_finder.py
 
-      # ----------------------------
-      # COACHES SCRAPER
-      # ----------------------------
       - name: Install coaches scraper dependencies
+        working-directory: "./coaches"
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
           else
             echo "No requirements.txt found for coaches"
-        working-directory: "coaches"
-        run: |
-          echo "Running coaches scraper on macOS..."
-          python3 run.py --profile "default"
           fi
 
       - name: Run coaches scraper on macOS
-        working-directory: "coaches"
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-
+        working-directory: "./coaches"
+        run: |
+          echo "Running coaches scraper on macOS..."
+          python3 run.py
